@@ -1,5 +1,5 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
 }
 
 img {
@@ -10,6 +10,24 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.flex1 {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.flex2 {
+  max-width: 200px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
